@@ -29,9 +29,9 @@ LIB = $(PellesCDir)\Lib\Win;$(PellesCDir)\Lib#
 # 
 terminal_window_game_1942.exe: \
 	output\App.obj \
+	output\draw_pieces.obj \
 	output\temp_move_pieces.obj \
-	output\tmdshell.obj \
-	output\temp_whatever.obj
+	output\tmdshell.obj
 	$(LINK) $(LINKFLAGS) -out:"$@" $**
 
 # 
@@ -39,14 +39,16 @@ terminal_window_game_1942.exe: \
 # 
 output\App.obj: \
 	App.c \
-	App.h
+	App.h \
+	move_pieces.h
 	$(CC) $(CCFLAGS) "$!" -Fo"$@"
 
 # 
 # Build temp_move_pieces.obj.
 # 
 output\temp_move_pieces.obj: \
-	temp_move_pieces.c
+	temp_move_pieces.c \
+	move_pieces.h
 	$(CC) $(CCFLAGS) "$!" -Fo"$@"
 
 # 
@@ -58,10 +60,13 @@ output\tmdshell.obj: \
 	$(CC) $(CCFLAGS) "$!" -Fo"$@"
 
 # 
-# Build temp_whatever.obj.
+# Build draw_pieces.obj.
 # 
-output\temp_whatever.obj: \
-	temp_whatever.c
+output\draw_pieces.obj: \
+	draw_pieces.c \
+	draw_pieces.h
 	$(CC) $(CCFLAGS) "$!" -Fo"$@"
+
+.EXCLUDEDFILES:
 
 .SILENT:

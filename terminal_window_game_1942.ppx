@@ -1,16 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <settings version="1.0">
-	<category name="temp_whatever.c">
+	<category name="temp_whatever.c" />
+	<category name="temp_move_pieces.c">
 		<category name="Window">
-			<property name="Left" type="integer">100</property>
-			<property name="Top" type="integer">100</property>
-			<property name="Right" type="integer">968</property>
-			<property name="Bottom" type="integer">418</property>
+			<property name="Left" type="integer">0</property>
+			<property name="Top" type="integer">0</property>
+			<property name="Right" type="integer">1024</property>
+			<property name="Bottom" type="integer">318</property>
 			<property name="Maximized" type="integer">0</property>
 			<property name="Active" type="integer">0</property>
 		</category>
 	</category>
-	<category name="temp_move_pieces.c">
+	<category name="App.h">
+		<category name="Window">
+			<property name="Left" type="integer">25</property>
+			<property name="Top" type="integer">25</property>
+			<property name="Right" type="integer">1049</property>
+			<property name="Bottom" type="integer">343</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="App.c">
+		<category name="Foldings">
+			<property name="Line1" type="integer">50</property>
+		</category>
+		<category name="Window">
+			<property name="Left" type="integer">50</property>
+			<property name="Top" type="integer">50</property>
+			<property name="Right" type="integer">1074</property>
+			<property name="Bottom" type="integer">368</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="draw_pieces.c">
+		<category name="Window">
+			<property name="Left" type="integer">75</property>
+			<property name="Top" type="integer">75</property>
+			<property name="Right" type="integer">1099</property>
+			<property name="Bottom" type="integer">393</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="move_pieces.h">
 		<category name="Window">
 			<property name="Left" type="integer">-8</property>
 			<property name="Top" type="integer">-30</property>
@@ -20,22 +54,12 @@
 			<property name="Active" type="integer">1</property>
 		</category>
 	</category>
-	<category name="App.h">
+	<category name="draw_pieces.h">
 		<category name="Window">
 			<property name="Left" type="integer">125</property>
 			<property name="Top" type="integer">125</property>
-			<property name="Right" type="integer">993</property>
+			<property name="Right" type="integer">1149</property>
 			<property name="Bottom" type="integer">443</property>
-			<property name="Maximized" type="integer">0</property>
-			<property name="Active" type="integer">0</property>
-		</category>
-	</category>
-	<category name="App.c">
-		<category name="Window">
-			<property name="Left" type="integer">50</property>
-			<property name="Top" type="integer">50</property>
-			<property name="Right" type="integer">918</property>
-			<property name="Bottom" type="integer">368</property>
 			<property name="Maximized" type="integer">0</property>
 			<property name="Active" type="integer">0</property>
 		</category>

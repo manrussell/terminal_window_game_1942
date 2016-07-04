@@ -16,7 +16,7 @@
 #define __APP_H__
 
 #define DEBUG												/*! debug print version. */
-//#define WINV
+#define WINV
 
 #ifdef WINV
   #include <stdio.h>
