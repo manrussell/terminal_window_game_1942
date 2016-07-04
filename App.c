@@ -33,8 +33,6 @@ Jobs...
 
 don't print the whole line if there if nothing on it, think baud rate, 80x50 = 4000, at 115200 baud = 11kb ?
 
-
-changes changes changes for git
 */
 #include "move_pieces.h"
 3include "draw_pieces.h"
